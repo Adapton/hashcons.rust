@@ -2,19 +2,19 @@
 Hash Cons'ing for Rust
 ======================
 
-- A `Merkle<T>` gives a _compact serialization_ in the presence of
-  sharing, i.e., when many structures share a common instance of a
-  `T`.
+Sometimes, an `Rc<T>` is insufficient for efficient, compact immmutable structures.
 
-- A `Hc<T>` gives a _unique representation_ in the presence of
-  sharing, i.e., when many structures share a common instance of a
-  `T`.
+By contrast:
+
+- A `Merkle<T>` gives a _compact serialization_ in the presence of sharing.
+
+- A `Hc<T>` gives a _unique representation_ in the presence of sharing.
 
 Status
 ---------
 
-- The type `Merkle<_>` is implemented and tested
-- The type `Hc<_>` is a minor variation; it remains as future work
+- The type `Merkle<_>` is implemented and tested.
+- The type `Hc<_>` is a minor variation; it remains as future work.
 
 Background
 -----------
