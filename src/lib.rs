@@ -1,5 +1,3 @@
-#![feature(rc_downcast)]
-
 extern crate core;
 extern crate serde;
 extern crate serde_json;
