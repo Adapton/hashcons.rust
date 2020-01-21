@@ -1,6 +1,6 @@
 [package]
 name = "hashcons"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Matthew A. Hammer", "Ryan Vandersmith"]
 edition = "2018"
 
